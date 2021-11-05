@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Animation_Activity">
+
+    <com.example.customview_canvasanimations.DrawCar
+        android:id="@+id/drawCar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/stopAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_FadeIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FadeIn" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_FadeOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FadeOut" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_Blink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blink" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_zoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZoomIn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_zoomOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZoomOut" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_animRotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_animMove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_animSlideUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SlideUp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_slideDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SlideDown" />
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_animBounce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bounce" />
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_animSequential"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sequential" />
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_animTogether"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Together" />
+    </LinearLayout>
+</LinearLayout>
